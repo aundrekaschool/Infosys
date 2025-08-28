@@ -9,7 +9,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  audioplayers: ^6.0.0  
+  google_fonts: ^6.2.1
+  audioplayers: ^6.0.0
+
 
 dev_dependencies:
   flutter_test:
@@ -25,3 +27,11 @@ flutter:
     - assets/activity3.png
     - assets/activity4.png
     - assets/opening.mp3
+  fonts:
+      - family: PlayfairDisplay
+        fonts:
+          - asset: assets/PlayfairDisplay-Black.ttf
+      - family: Poppins
+        fonts:
+          - asset: assets/Poppins-Light.ttf
+
